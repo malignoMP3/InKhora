@@ -1,0 +1,38 @@
+# Ambiente virtual
+venv/
+
+
+# Arquivos de cache do Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Banco de dados SQLite (remova se estiver usando PostgreSQL)
+*.sqlite3
+
+# Logs
+*.log
+
+# Arquivos de configuração do editor
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Arquivos de migração quebrados
+*/migrations/*.pyc
+*/migrations/__pycache__/
+
+# Arquivos estáticos e de mídia (caso gere localmente)
+staticfiles/
+media/
+
+# Arquivos compilados do Django
+db.sqlite3
+local_settings.py
+
+# Mac/Linux
+.DS_Store
+
+# Windows
+Thumbs.db
